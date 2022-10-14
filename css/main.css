@@ -24,8 +24,8 @@ p {
 
 /* Page block */
 .page {
-  white-space: nowrap;
-  overflow: hidden;
+  /*white-space: nowrap;*/
+  /*overflow: hidden;*/
 }
 
 .page__inner {
@@ -238,6 +238,6 @@ p {
   }
 
   :root {
-    --page-width: 90%;
+    --page-width: 89%;
   }
 }
