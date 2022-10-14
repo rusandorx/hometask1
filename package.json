@@ -1,0 +1,11 @@
+{
+  "name": "yandex search",
+  "version": "0.0.1",
+  "description": "Yandex search page with 404 error message",
+  "author": "rusandorx",
+  "scripts": {
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
+}
