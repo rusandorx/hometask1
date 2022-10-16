@@ -34,20 +34,24 @@
   min-width: 6em;
 }
 
-/*Link block*/
+/* Link block */
 .link {
   text-decoration: none;
   color: #1257d6;
 }
 
-.link:hover, .link:active {
+.link:visited {
+  color: #6f504f
+}
+
+.link:hover {
   color: #c00;
   transition: color 0.15s ease-out;
   cursor: pointer
 }
 
-.link:visited {
-  color: #6f504f
+.link:active {
+  color: #430a0a;
 }
 
 /* Label block */
@@ -180,7 +184,7 @@
 
 .navbar__link {
   font-size: 1.1em;
-  color: #151515;
+  color: #151515aa;
 }
 
 /* Icon block */
